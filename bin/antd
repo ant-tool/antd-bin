@@ -1,0 +1,42 @@
+#!/usr/bin/env node
+
+var spawn = require('win-spawn');
+var join = require('path').join;
+var exists = require('fs').existsSync;
+var program = require('commander');
+
+program
+  .version(require('../package').version, '-v, --version')
+  .usage('<command> [options]')
+  .on('--help', printHelp)
+  .parse(process.argv);
+
+var subcmd = program.args[0];
+var args = process.argv.slice(3);
+
+if (!subcmd) {
+  program.help();
+} else {
+  var bin = executable(subcmd);
+  if (bin) {
+    spawn(bin, args, {stdio: 'inherit', customFds: [0, 1, 2]});
+  } else {
+    printHelp();
+  }
+}
+
+function printHelp() {
+  console.log('  Commands:');
+  console.log();
+  console.log('    init           initialize');
+  console.log('    build          build entry files specified in package.json');
+  console.log('    server         debug with server');
+  console.log();
+}
+
+function executable(subcmd) {
+  var file = join(__dirname, 'antd-' + subcmd);
+  if (exists(file)) {
+    return file;
+  }
+}

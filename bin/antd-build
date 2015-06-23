@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+require('gnode');
+
+program
+  .parse(process.argv);
+
+require('../lib/build')();

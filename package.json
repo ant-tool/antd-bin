@@ -1,0 +1,39 @@
+{
+  "name": "antd",
+  "version": "0.1.0",
+  "description": "Development tool for ant.design",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ant-design/antd"
+  },
+  "homepage": "https://github.com/ant-design/antd",
+  "author": "chencheng <sorrycc@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "antd": "./bin/antd"
+  },
+  "dependencies": {
+    "babel-core": "~5.5.8",
+    "babel-loader": "~5.1.4",
+    "chalk": "~1.0.0",
+    "commander": "~2.8.1",
+    "css-loader": "~0.14.5",
+    "extract-text-webpack-plugin": "~0.8.2",
+    "file-loader": "~0.8.4",
+    "gnode": "~0.1.1",
+    "koa": "~0.21.0",
+    "koa-serve-index": "~1.0.4",
+    "koa-static": "~1.4.9",
+    "koa-webpack-dev-middleware": "~1.0.0",
+    "less": "~2.5.1",
+    "less-loader": "~2.2.0",
+    "object-assign": "~3.0.0",
+    "shelljs": "~0.5.1",
+    "through2": "~2.0.0",
+    "url-loader": "~0.5.6",
+    "vinyl-fs": "~1.0.0",
+    "webpack": "~1.9.11",
+    "webpack-dev-middleware": "~1.1.0",
+    "win-spawn": "~2.0.0"
+  }
+}
