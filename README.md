@@ -1,6 +1,6 @@
-# antd
+# antd-bin
 
-[![NPM version](https://img.shields.io/npm/v/antd.svg?style=flat)](https://npmjs.org/package/antd)
+[![NPM version](https://img.shields.io/npm/v/antd-bin.svg?style=flat)](https://npmjs.org/package/antd-bin)
 
 Development tool for ant.design .
 
@@ -11,7 +11,7 @@ Development tool for ant.design .
 ### 安装
 
 ```bash
-$ npm i antd -g
+$ npm i antd-bin -g
 ```
 
 ### 脚手架

@@ -4,10 +4,10 @@
 
 ## 使用方法
 
-### 安装 antd
+### 安装 antd-bin
 
 ```bash
-$ npm install antd -g
+$ npm install antd-bin -g
 ```
 
 ### 安装依赖
