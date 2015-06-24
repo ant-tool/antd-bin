@@ -20,7 +20,7 @@ $ npm i antd-bin -g
 $ antd init
 ```
 
-这会创建一个 package.json，此外你还需要在 package.json 中配置 entry 声明哪些是入口文件，格式详见：http://webpack.github.io/docs/configuration.html#entry
+这会创建一个 package.json，此外你还需要在 package.json 中配置 entry 来声明哪些是入口文件，格式详见：http://webpack.github.io/docs/configuration.html#entry
 
 ### 本地调试
 
