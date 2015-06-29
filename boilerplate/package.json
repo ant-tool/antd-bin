@@ -1,4 +1,7 @@
 {
+  "entry": {
+    "index": "./index.js"
+  },
   "dependencies": {
     "ant-design": "https://github.com/ant-design/ant-design.git"
   }
