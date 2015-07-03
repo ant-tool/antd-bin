@@ -3,6 +3,10 @@
     "index": "./index.js"
   },
   "dependencies": {
-    "ant-design": "https://github.com/ant-design/ant-design.git"
+    "antd": "0.x"
+  },
+  "scripts": {
+    "dev": "antd server",
+    "build": "antd build"
   }
 }
