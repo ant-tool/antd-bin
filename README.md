@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/antd-bin.svg?style=flat)](https://npmjs.org/package/antd-bin)
 
-Development tool for ant.design .
+Development tool for [Ant Design](https://github.com/ant-design/ant-design).
 
 ----
 
