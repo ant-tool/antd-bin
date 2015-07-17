@@ -3,7 +3,10 @@
     "index": "./index.js"
   },
   "dependencies": {
-    "antd": "0.x"
+    "antd": "*"
+  },
+  "devDependencies": {
+    "antd-bin": "0.x"
   },
   "scripts": {
     "dev": "antd server",
