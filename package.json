@@ -1,7 +1,7 @@
 {
   "name": "antd-bin",
-  "version": "0.1.4",
-  "description": "Development tool for ant.design",
+  "version": "0.1.5",
+  "description": "Development tool for Ant Design",
   "repository": {
     "type": "git",
     "url": "https://github.com/ant-design/antd"
