@@ -4,5 +4,9 @@
   },
   "dependencies": {
     "antd": "0.x"
+  },
+  "scripts": {
+    "build": "antd build",
+    "server": "antd server"
   }
 }

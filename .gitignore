@@ -3,4 +3,4 @@
 tmp
 spm_modules
 node_modules
-demo/dist
+examples/**/dist
