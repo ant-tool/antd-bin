@@ -1,0 +1,12 @@
+{
+  "entry": {
+    "a": "./a.js"
+  },
+  "dependencies": {
+    "reactcss": "~0.3.2"
+  },
+  "scripts": {
+    "build": "antd build",
+    "server": "antd server"
+  }
+}

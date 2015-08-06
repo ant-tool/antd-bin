@@ -1,8 +1,8 @@
 'use strict';
 
-require('antd/style/index.less');
+require('antd/lib/index.css');
 
-var ProgressCircle = require('antd/components/progress').Circle;
+var ProgressCircle = require('antd/lib/progress').Circle;
 
 var MyProgress = React.createClass({
   getInitialState() {
