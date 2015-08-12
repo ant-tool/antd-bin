@@ -3,6 +3,7 @@
 require('antd/lib/index.css');
 
 var ProgressCircle = require('antd/lib/progress').Circle;
+var React = require('react');
 
 var MyProgress = React.createClass({
   getInitialState() {
@@ -22,10 +23,11 @@ var MyProgress = React.createClass({
     }, 200);
   },
   render() {
-    return <ProgressCircle percent={this.state.percent} />;
+    return <div>
+      <ProgressCircle percent={this.state.percent} />
+      foo
+    </div>;
   }
 });
 
-React.render(
-  <MyProgress />
-  , document.getElementById('components-progress-demo-circle-dynamic'));
+module.exports = MyProgress;
