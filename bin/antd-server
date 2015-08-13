@@ -5,7 +5,7 @@ require('gnode');
 
 program
   .option('-p, --port <port>', 'port')
-  .option('--no-hot', 'enable HOT MODULE REPLACEMENT')
+  .option('--no-hot', 'disable HOT MODULE REPLACEMENT')
   .parse(process.argv);
 
 require('../lib/server')({
