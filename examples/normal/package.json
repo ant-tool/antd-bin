@@ -1,6 +1,8 @@
 {
   "entry": {
-    "a": "./a.js"
+    "a": [
+      "./a.jsx"
+    ]
   },
   "dependencies": {
     "antd": "0.x"
