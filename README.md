@@ -6,6 +6,13 @@ Development tool for [Ant Design](https://github.com/ant-design/ant-design).
 
 ----
 
+## 特性
+
+- 基于 webpack 实现
+- 支持 ES6（基于 babel-loader）和 less
+- 支持热替换（HOT MODULE REPLACEMENT）
+- 支持自定义配置 webpack.config
+
 ## 使用说明
 
 ### 安装
