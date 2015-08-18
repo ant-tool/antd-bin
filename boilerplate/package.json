@@ -3,7 +3,8 @@
     "index": "./index.js"
   },
   "dependencies": {
-    "antd": "*"
+    "antd": "*",
+    "react": "~0.13.3"
   },
   "devDependencies": {
     "antd-bin": "0.x"

@@ -3,6 +3,7 @@
     "a": "./a.js"
   },
   "dependencies": {
+    "react": "~0.13.3",
     "reactcss": "~0.3.2"
   },
   "scripts": {
