@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "react": "~0.13.3",
+    "react-map-styles": "~0.2.0",
     "reactcss": "~0.3.2"
   },
   "scripts": {
