@@ -1,16 +1,19 @@
 {
   "name": "antd-bin",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Development tool for Ant Design",
   "repository": {
     "type": "git",
     "url": "https://github.com/ant-design/antd"
   },
   "homepage": "https://github.com/ant-design/antd",
-  "author": "chencheng <sorrycc@gmail.com>",
+  "mai": "chencheng <sorrycc@gmail.com>",
   "license": "MIT",
   "bin": {
     "antd": "./bin/antd"
+  },
+  "scripts": {
+    "publish": "git push origin"
   },
   "dependencies": {
     "autoprefixer-loader": "~2.0.0",

@@ -32,7 +32,7 @@ $ antd init
 ### 本地调试
 
 ```bash
-$ antd server
+$ npm run dev
 ```
 
 然后访问 http://127.0.0.1:8000 。
@@ -40,5 +40,5 @@ $ antd server
 ### 构建
 
 ```bash
-$ antd build
+$ npm run build
 ```
