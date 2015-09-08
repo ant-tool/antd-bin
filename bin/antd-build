@@ -4,6 +4,7 @@ var program = require('commander');
 require('gnode');
 
 program
+  .option('--debug', 'build without compress')
   .parse(process.argv);
 
-require('../lib/build')();
+require('../lib/build')(program);
