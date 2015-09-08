@@ -4,6 +4,7 @@ var program = require('commander');
 require('gnode');
 
 program
+  .option('-o, --output-path <path>', 'build without compress')
   .option('-w, --watch [delay]', 'watch file changes and rebuild')
   .option('--debug', 'build without compress')
   .parse(process.argv);
