@@ -2,6 +2,14 @@
 
 ---
 
+## 0.6.0
+
+- build 支持 `--debug`，不开启压缩
+- build 支持 `--watch`，监听文件修改并重新 build
+- build 支持 `--output-path`，定制输出路径
+- 默认设置 `babel?stage=0`，支持 es7，详见：https://babeljs.io/docs/usage/experimental/
+- externals 配置中映射 `react/addon` 到 `window.React`
+
 ## 0.5.0
 
 - 默认不开启热替换
