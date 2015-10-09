@@ -4,9 +4,9 @@
   "description": "Development tool for Ant Design",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/antd"
+    "url": "https://github.com/ant-design/antd-bin"
   },
-  "homepage": "https://github.com/ant-design/antd",
+  "homepage": "https://github.com/ant-design/antd-bin",
   "mai": "chencheng <sorrycc@gmail.com>",
   "license": "MIT",
   "bin": {
