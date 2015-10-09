@@ -5,10 +5,12 @@ require('gnode');
 
 program
   .option('-p, --port <port>', 'port')
+  .option('--proxy', 'proxy with anyproxy')
   .option('--hot', 'enable HOT MODULE REPLACEMENT')
   .parse(process.argv);
 
 require('../lib/server')({
   port: program.port,
+  proxy: program.proxy,
   hot: program.hot
 });

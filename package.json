@@ -16,6 +16,7 @@
     "publish": "git push origin"
   },
   "dependencies": {
+    "anyproxy": "~3.7.7",
     "autoprefixer-loader": "~2.0.0",
     "babel-core": "~5.5.8",
     "babel-loader": "~5.1.4",
@@ -25,6 +26,7 @@
     "extract-text-webpack-plugin": "~0.8.2",
     "file-loader": "~0.8.4",
     "gnode": "~0.1.1",
+    "internal-ip": "~1.1.0",
     "koa": "~0.21.0",
     "koa-serve-index": "~1.0.4",
     "koa-static": "~1.4.9",
