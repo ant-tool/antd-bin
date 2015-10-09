@@ -1,12 +1,4 @@
 #!/usr/bin/env node
 
-var program = require('commander');
-require('gnode');
+require('antd-build/bin/antd-build');
 
-program
-  .option('-o, --output-path <path>', 'build without compress')
-  .option('-w, --watch [delay]', 'watch file changes and rebuild')
-  .option('--debug', 'build without compress')
-  .parse(process.argv);
-
-require('../lib/build')(program);
