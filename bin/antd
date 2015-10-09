@@ -6,8 +6,8 @@ var exists = require('fs').existsSync;
 var program = require('commander');
 
 program
-  .version(require('../package').version, '-v, --version')
   .usage('<command> [options]')
+  .option('-v, --version [version]', 'show version')
   .on('--help', printHelp)
   .parse(process.argv);
 
@@ -15,7 +15,12 @@ var subcmd = program.args[0];
 var args = process.argv.slice(3);
 
 if (!subcmd) {
-  program.help();
+  var lastArgs = process.argv.slice(-1)[0];
+  if (lastArgs === '-v' || lastArgs === '--version') {
+    printVersion();
+  } else {
+    program.help();
+  }
 } else {
   var bin = executable(subcmd);
   if (bin) {
@@ -23,6 +28,20 @@ if (!subcmd) {
   } else {
     printHelp();
   }
+}
+
+function printVersion() {
+  var binVersion = require('../package').version;
+  console.log('antd-bin: ' + binVersion);
+
+  // show version of antd
+  try {
+    var pkg = require(join(process.cwd(), 'package.json'));
+    var antdVersion = pkg.dependencies['antd'] || pkg.devDependencies['antd'];
+    if (antdVersion) {
+      console.log('antd: ' + antdVersion);
+    }
+  } catch(e) {}
 }
 
 function printHelp() {
