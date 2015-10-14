@@ -5,14 +5,17 @@
     "index": "./src/entry/index.jsx"
   },
   "dependencies": {
-    "antd-bin": "0.6.x",
+    "antd": "*",
+    "antd-build": "0.2.x",
+    "react": "*"
+  },
+  "devDependencies": {
+    "antd-bin": "0.7.x",
     "babel-eslint": "~4.0.5",
     "eslint": "~1.1.0",
     "eslint-config-airbnb": "0.0.7",
     "eslint-plugin-react": "~3.2.1",
-    "precommit-hook": "1.x",
-    "antd": "*",
-    "react": "*"
+    "precommit-hook": "1.x"
   },
   "precommit": [
     "lint"
@@ -20,6 +23,6 @@
   "scripts": {
     "dev": "antd server",
     "lint": "eslint --ext .js,.jsx src",
-    "build": "rm -rf dist && antd build && mkdir -p dist/${npm_package_name}/${npm_package_version} && mv dist/*.* dist/${npm_package_name}/${npm_package_version}/"
+    "build": "rm -rf dist && antd-build && mkdir -p dist/${npm_package_name}/${npm_package_version} && mv dist/*.* dist/${npm_package_name}/${npm_package_version}/"
   }
 }
