@@ -21,6 +21,7 @@
     "lint"
   ],
   "scripts": {
+    "start": "npm run dev",
     "dev": "antd server",
     "lint": "eslint --ext .js,.jsx src",
     "build": "rm -rf dist && antd-build && mkdir -p dist/${npm_package_name}/${npm_package_version} && mv dist/*.* dist/${npm_package_name}/${npm_package_version}/"
