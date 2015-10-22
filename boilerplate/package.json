@@ -5,14 +5,14 @@
     "index": "./src/entry/index.jsx"
   },
   "dependencies": {
-    "antd-bin": "0.5.x",
+    "antd-bin": "0.6.x",
     "babel-eslint": "~4.0.5",
     "eslint": "~1.1.0",
     "eslint-config-airbnb": "0.0.7",
     "eslint-plugin-react": "~3.2.1",
     "precommit-hook": "1.x",
-    "antd": "*",
-    "react": "*"
+    "antd": "0.9.x",
+    "react": "0.13.x"
   },
   "precommit": [
     "lint"
