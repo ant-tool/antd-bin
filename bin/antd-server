@@ -5,7 +5,7 @@ require('gnode');
 
 program
   .option('-p, --port <port>', 'port')
-  .option('--proxy', 'proxy with anyproxy')
+  .option('--proxy [rootDir]', 'proxy with anyproxy')
   .option('--public-path <publicPath>', 'public-path')
   .option('--hot', 'enable HOT MODULE REPLACEMENT')
   .parse(process.argv);
