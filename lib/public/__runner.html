@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mocha Runner</title>
+  <link rel="stylesheet" href="__mocha.css" />
+</head>
+<body>
+
+  <script src="__mocha.js"></script>
+
+  <div id="mocha"></div>
+
+  <script>
+    mocha.ui('bdd');
+    mocha.reporter('html');
+  </script>
+
+  <script src="common.js"></script>
+  <script src="__test.js"></script>
+
+  <script>
+    if (window.mochaPhantomJS) {
+      mochaPhantomJS.run();
+    } else {
+      mocha.run();
+    }
+  </script>
+
+</body>
+</html>

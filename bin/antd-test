@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+require('gnode');
+
+program
+  .option('-p, --port <port>', 'port')
+  .option('--no-cov', 'don\'t generate coverage')
+  .parse(process.argv);
+
+require('../lib/test')({
+  port: program.port,
+  cov: program.cov,
+}, process.exit);
