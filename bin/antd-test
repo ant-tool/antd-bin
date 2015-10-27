@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+require('gnode');
+
+program
+  .option('-p, --port <port>', 'port')
+  .parse(process.argv);
+
+require('../lib/test')({
+  port: program.port,
+}, process.exit);

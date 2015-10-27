@@ -50,6 +50,7 @@ function printHelp() {
   console.log('    init           initialize');
   console.log('    build          build entry files specified in package.json');
   console.log('    server         debug with server');
+  console.log('    test           unit test');
   console.log();
 }
 

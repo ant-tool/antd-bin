@@ -14,5 +14,5 @@ require('../lib/server')({
   port: program.port,
   proxy: program.proxy,
   publicPath: program.publicPath,
-  hot: program.hot
+  hot: program.hot,
 });
