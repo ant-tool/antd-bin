@@ -16,7 +16,7 @@
     "publish": "git push origin"
   },
   "dependencies": {
-    "antd-build": "~0.2.0",
+    "antd-build": "~0.4.0",
     "antd-init": "~0.1.0",
     "anyproxy": "~3.7.7",
     "chalk": "~1.1.1",
@@ -37,9 +37,9 @@
     "react-hot-loader": "~1.2.8",
     "shelljs": "~0.5.1",
     "socket.io": "~1.3.6",
-    "webpack": "~1.9.11",
-    "webpack-dev-middleware": "~1.1.0",
-    "webpack-dev-server": "~1.10.1",
+    "webpack": "~1.12.2",
+    "webpack-dev-middleware": "~1.2.0",
+    "webpack-dev-server": "~1.12.1",
     "win-spawn": "~2.0.0"
   }
 }
