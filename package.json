@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "antd-build": "~0.4.0",
-    "antd-init": "~0.1.0",
     "anyproxy": "~3.7.7",
     "chalk": "~1.1.1",
     "commander": "~2.8.1",

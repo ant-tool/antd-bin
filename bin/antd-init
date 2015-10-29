@@ -1,3 +1,0 @@
-#!/usr/bin/env node
-
-require('antd-init/bin/antd-init');
