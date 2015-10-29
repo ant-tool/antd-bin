@@ -22,7 +22,6 @@
     "commander": "~2.8.1",
     "exeq": "~2.2.0",
     "glob": "~5.0.15",
-    "gnode": "~0.1.1",
     "internal-ip": "~1.1.0",
     "istanbul": "~0.4.0",
     "istanbul-instrumenter-loader": "~0.1.3",

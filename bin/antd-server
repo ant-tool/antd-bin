@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 var program = require('commander');
-require('gnode');
 
 program
   .option('-p, --port <port>', 'port')
