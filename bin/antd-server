@@ -7,12 +7,10 @@ program
   .option('-p, --port <port>', 'port')
   .option('--proxy [rootDir]', 'proxy with anyproxy')
   .option('--public-path <publicPath>', 'public-path')
-  .option('--hot', 'enable HOT MODULE REPLACEMENT')
   .parse(process.argv);
 
 require('../lib/server')({
   port: program.port,
   proxy: program.proxy,
   publicPath: program.publicPath,
-  hot: program.hot,
 });
