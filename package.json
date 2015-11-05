@@ -13,7 +13,7 @@
     "antd": "./bin/antd"
   },
   "scripts": {
-    "publish": "git push origin"
+    "publish": "git push origin --tags"
   },
   "dependencies": {
     "antd-build": "~0.4.0",
