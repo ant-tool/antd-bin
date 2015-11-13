@@ -27,7 +27,7 @@
     "istanbul-instrumenter-loader": "~0.1.3",
     "koa": "~0.21.0",
     "koa-serve-index": "~1.0.4",
-    "koa-static": "~1.4.9",
+    "koa-static-with-post": "~1.5.2",
     "koa-webpack-dev-middleware": "~1.0.0",
     "mocha-phantomjs": "~4.0.1",
     "mocha-phantomjs-istanbul": "0.0.2",
