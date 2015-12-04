@@ -1,0 +1,22 @@
+{
+  "entry": {
+    "a": [
+      "./a.jsx"
+    ]
+  },
+  "dependencies": {
+    "antd": "~0.10.4",
+    "react": "~0.14.3",
+    "react-dom": "~0.14.3"
+  },
+  "devDependencies": {
+    "antd-bin": "~0.10.2"
+  },
+  "theme": {
+    "primary-color": "#1DA57A"
+  },
+  "scripts": {
+    "build": "antd build",
+    "start": "antd server"
+  }
+}
