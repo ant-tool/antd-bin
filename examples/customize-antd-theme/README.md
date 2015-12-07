@@ -26,8 +26,10 @@ $ npm build
 
 ## 颜色配置方式
 
-1. 配置在 `package.json` 下的 `theme` 字段。
-2. 或者建立自定义的 webpack.config.js 文件，将 lessloader 配置如下：
+注意一定要引入 `antd/style/index.less` 文件，而不是默认的 `antd/lib/index.css` 文件。
+
+- 配置在 `package.json` 下的 `theme` 字段。
+- 或者建立自定义的 webpack.config.js 文件，将 lessloader 配置如下：
 
 ```js
 {
