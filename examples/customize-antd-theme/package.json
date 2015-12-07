@@ -5,18 +5,21 @@
     ]
   },
   "dependencies": {
-    "antd": "~0.10.4",
+    "antd": "0.10.x",
     "react": "~0.14.3",
     "react-dom": "~0.14.3"
   },
   "devDependencies": {
-    "antd-bin": "~0.10.2"
+    "atool-build": "0.1.x",
+    "babel-plugin-antd": "^0.1.2",
+    "dora": "0.1.0-beta5",
+    "dora-plugin-atool-build": "^0.1.1",
+    "dora-plugin-proxy": "^0.2.0"
   },
   "theme": {
     "primary-color": "#1DA57A"
   },
   "scripts": {
-    "build": "antd build",
-    "start": "antd server"
+    "start": "dora -p 8001 --plugins atool-build,proxy"
   }
 }
