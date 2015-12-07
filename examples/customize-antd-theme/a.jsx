@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'antd/style/index.less';  // import less for modifyVars
 import { Form, Select, InputNumber, Datepicker, Switch, Slider, Button, message, Row, Col } from 'antd';
-import 'antd/style/index.less'; // after import antd
 const FormItem = Form.Item;
 const Option = Select.Option;
 
