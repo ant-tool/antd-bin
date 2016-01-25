@@ -2,6 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/antd-bin.svg?style=flat)](https://npmjs.org/package/antd-bin)
 
+**本项目已废弃，请使用 https://ant-tool.github.io/**
+
 Development tool for [Ant Design](https://github.com/ant-design/ant-design).
 
 ----
