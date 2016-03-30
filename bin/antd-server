@@ -13,3 +13,4 @@ require('../lib/server')({
   proxy: program.proxy,
   publicPath: program.publicPath,
 });
+require('atool-monitor').emit();
