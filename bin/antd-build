@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 require('antd-build/bin/antd-build');
-
+require('atool-monitor').emit();

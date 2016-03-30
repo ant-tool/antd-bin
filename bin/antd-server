@@ -16,3 +16,4 @@ require('../lib/server')({
   publicPath: program.publicPath,
   hot: program.hot,
 });
+require('atool-monitor').emit();

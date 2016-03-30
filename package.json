@@ -1,6 +1,6 @@
 {
   "name": "antd-bin",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Development tool for Ant Design",
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
     "publish": "git push origin"
   },
   "dependencies": {
+    "atool-monitor": "0.x",
     "antd-build": "~0.2.0",
     "antd-init": "~0.1.0",
     "anyproxy": "~3.7.7",
